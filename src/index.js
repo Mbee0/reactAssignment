@@ -17,7 +17,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 import App from "./App";
 import Api from "./Api";
-import Home from "./Home"
+import Home from "./Home";
 
 const root = createRoot(document.getElementById("root"));
 root.render(
