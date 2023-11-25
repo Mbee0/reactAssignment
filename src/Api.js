@@ -20,7 +20,7 @@ export default function QuoteGenerator() {
             {quotes.map((quote) => (
                 <div>
                     <h3>{quote.content}</h3>
-                    <text>By: {quote.author}</text>
+                    <p>By: {quote.author}</p>
                     <h4>  -----  </h4>
                 </div>
             ))}
